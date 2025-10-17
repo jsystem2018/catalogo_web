@@ -1,5 +1,5 @@
 /* ============================================================
-   🟦 PANTALLA DE BIENVENIDA CON TIPEO Y CORTINAS
+    PANTALLA DE BIENVENIDA CON TIPEO Y CORTINAS
 ============================================================ */
 window.addEventListener("load", () => {
   const texto = "Bienvenido a tu web de confianza, donde encontrarás los mejores productos";
@@ -35,7 +35,7 @@ window.addEventListener("load", () => {
 });
 
 /* ============================================================
-   🛍️ FUNCIÓN PRINCIPAL PARA MOSTRAR EL CATÁLOGO
+   FUNCIÓN PRINCIPAL PARA MOSTRAR EL CATÁLOGO
 ============================================================ */
 function iniciarCatalogo() {
 // ===== CONTADOR LOCAL ACUMULATIVO (INICIA EN 1500) =====
@@ -114,7 +114,7 @@ const productosData = [
 }
 
 /* ============================================================
-   🪟 MODAL DE PRODUCTO
+    MODAL DE PRODUCTO
 ============================================================ */
 const modal = document.getElementById("modal");
 const modalNombre = document.getElementById("modalNombre");
@@ -173,7 +173,7 @@ document.getElementById("siguiente").onclick = () => cambiarImagen(indiceImagen 
 document.getElementById("anterior").onclick = () => cambiarImagen(indiceImagen - 1);
 
 /* ============================================================
-   ⬆️ BOTÓN "IR ARRIBA"
+    BOTÓN "IR ARRIBA"
 ============================================================ */
 const btnArriba = document.getElementById("btnArriba");
 
@@ -186,7 +186,7 @@ btnArriba.addEventListener("click", () => {
 });
 
 /* ============================================================
-   🧭 EFECTO DEL HEADER AL HACER SCROLL
+    EFECTO DEL HEADER AL HACER SCROLL
 ============================================================ */
 const hero = document.querySelector(".hero");
 
@@ -199,7 +199,7 @@ window.addEventListener("scroll", () => {
 });
 
 /* ============================================================
-   ✨ ANIMACIÓN DE PRODUCTOS AL HACER SCROLL
+    ANIMACIÓN DE PRODUCTOS AL HACER SCROLL
 ============================================================ */
 function activarAnimacionProductos() {
   const productos = document.querySelectorAll(".producto");

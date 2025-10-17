@@ -1,5 +1,5 @@
 /* ============================================================
-   🌐 ESTILOS GLOBALES
+    ESTILOS GLOBALES
 ============================================================ */
 body {
   font-family: 'Poppins', sans-serif;
@@ -10,7 +10,7 @@ body {
 }
 
 /* ============================================================
-   🧭 HEADER (FIJO + TRANSICIÓN SCROLL)
+    HEADER (FIJO + TRANSICIÓN SCROLL)
 ============================================================ */
 .hero {
   background: linear-gradient(180deg, #0078ff, #00c6ff);
@@ -53,7 +53,7 @@ body {
 }
 
 /* ============================================================
-   🛍️ CATÁLOGO DE PRODUCTOS
+    CATÁLOGO DE PRODUCTOS
 ============================================================ */
 .catalogo {
   margin-top: 160px;
@@ -169,7 +169,7 @@ body {
 }
 
 /* ============================================================
-   🪟 MODAL PRODUCTO
+    MODAL PRODUCTO
 ============================================================ */
 .modal {
   display: none;
@@ -258,7 +258,7 @@ body {
 }
 
 /* ============================================================
-   💙 PANTALLA DE BIENVENIDA
+    PANTALLA DE BIENVENIDA
 ============================================================ */
 .bienvenida {
   position: fixed;
@@ -312,7 +312,7 @@ background: linear-gradient(180deg, #1abc9c, #8e44ad);
 }
 
 /* ============================================================
-   ⚙️ CURSOR DEL TIPEO
+    CURSOR DEL TIPEO
 ============================================================ */
 .cursor-off {
   animation: fadeOutCursor 0.6s forwards;
@@ -324,7 +324,7 @@ background: linear-gradient(180deg, #1abc9c, #8e44ad);
 }
 
 /* ============================================================
-   ⚓ FOOTER Y BOTÓN "IR ARRIBA"
+    FOOTER Y BOTÓN "IR ARRIBA"
 ============================================================ */
 footer {
   text-align: center;
@@ -358,7 +358,7 @@ footer {
 }
 
 /* ============================================================
-   📱 AJUSTES RESPONSIVOS
+    AJUSTES RESPONSIVOS
 ============================================================ */
 @media (max-width: 768px) {
   .hero {
