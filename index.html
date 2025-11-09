@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Productos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="bienvenida" class="bienvenida">
+    <div class="cortina izquierda"></div>
+    <div class="cortina derecha"></div>
+    <div class="mensaje">
+      <h1 id="textoTipeado"></h1>
+    </div>
+  </div>
+
+  <header class="hero">
+    <h1>Catálogo de Productos</h1>
+<h2>Contactanos: 950 125 155</h2>
+  </header>
+
+  <main id="catalogo" class="catalogo"></main>
+
+  <footer>
+    <p>Visitas: <span id="contador">0</span></p>
+    <p>&copy; 2025 Mi Catálogo. Desarrollado por James Montalvo.</p>
+<p>Lima - Perú</p>
+  </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-contenido">
+      <span id="cerrarModal" class="cerrar">&times;</span>
+      <h2 id="modalNombre"></h2>
+      <img id="modalImagen" src="" alt="Imagen del producto">
+      <div class="controles">
+        <button id="anterior">&lt;</button>
+        <button id="siguiente">&gt;</button>
+      </div>
+      <p id="modalDescripcion"></p>
+      <a id="btnWhatsApp" class="btn-comprar" target="_blank">Lo quiero</a>
+    </div>
+  </div>
+	<button id="btnArriba" title="Volver arriba">⬆</button>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
